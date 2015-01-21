@@ -1,0 +1,17 @@
+# artifacts
+.sass-cache/
+node_modules/
+
+
+#ignore most timber/theme related files
+views/
+./js/
+
+#we'll keep page.php where we point to templates
+*.php
+!page.php
+
+
+#feel free to comment out these ignores when actually using
+lab/
+dist/

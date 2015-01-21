@@ -1,0 +1,47 @@
+{
+  "name": "frontend-lab-wp-timber",
+  "version": "0.5.0",
+  "repository": "yuvilio/frontend-lab-wp-timber",
+  "tags": [
+    "asset",
+    "pipeline",
+    "timber",
+    "wordpress",
+    "wp-cli"
+  ],
+  "description": "A gulp/wp-cli/timber friendly theme playgroup. gulp init ... code theme ....",
+  "main": "gulpfile.js",
+  "browserify": {
+    "transform": []
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuvilio",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^1.5.2",
+    "browserify": "^5.12.1",
+    "domquery": "^1.2.0",
+    "exec-chainable": "0.0.3",
+    "gulp": "^3.8.8",
+    "gulp-autoprefixer": "^2.0.0",
+    "gulp-data": "^1.0.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-shell": "^0.2.11",
+    "gulp-swig": "^0.7.4",
+    "gulp-util": "^3.0.1",
+    "hexo-fs": "0.0.7",
+    "highlight-redux": "^1.0.1",
+    "highlight.js": "^8.4.0",
+    "marked": "^0.3.2",
+    "minimist": "^1.1.0",
+    "multiline": "^1.0.2",
+    "open": "0.0.5",
+    "streamify": "^0.2.4",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^1.0.6"
+  },
+  "dependencies": {}
+}
