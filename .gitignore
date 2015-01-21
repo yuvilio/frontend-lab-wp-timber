@@ -4,7 +4,7 @@ node_modules/
 
 
 #ignore most timber/theme related files
-views/
+./views/
 ./js/
 
 #we'll keep page.php where we point to templates
